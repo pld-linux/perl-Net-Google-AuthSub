@@ -9,7 +9,7 @@ Summary:	Net::Google::AuthSub - interact with sites that implement Google style 
 Summary(pl.UTF-8):	Net::Google::AuthSub - współdziałaj ze stronami, które implementują styl Google AuthSub
 Name:		perl-Net-Google-AuthSub
 Version:	0.5
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -55,6 +55,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_vendorlib}/Net/Google
 %{perl_vendorlib}/Net/Google/*.pm
 %{perl_vendorlib}/Net/Google/AuthSub
 %{_mandir}/man3/*
