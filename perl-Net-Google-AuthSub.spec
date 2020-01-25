@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	Google-AuthSub
 Summary:	Net::Google::AuthSub - interact with sites that implement Google style AuthSub
